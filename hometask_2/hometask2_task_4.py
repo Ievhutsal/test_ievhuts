@@ -36,8 +36,8 @@ while len(m_list) > 0:
 list_with_numbers = [2, 3, 5, 5, 5, 6, 2, 3, 3, 3, 3, 3, 89, 0]
 starting_subsequence_value = list_with_numbers[0]
 starting_subsequence_index = 0
-end_subsequence_value =
-end_subsequence_index =
+end_subsequence_value = list_with_numbers[0]
+end_subsequence_index = 0
 
 for current_index in range(len(list_with_numbers) - 1):
     next_number = list_with_numbers[current_index + 1]
